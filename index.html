@@ -1,0 +1,92 @@
+
+<!Doctype html>
+<html lang="en">
+<head>
+
+<meta charset="utf-8" />
+<!-- Responsive viewport for mobile devices -->
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+
+<title>Ari Patrinos for City Controller</title>
+
+<link rel="stylesheet" href="styles.css">
+
+</head>
+<body>
+<!-- Skip link for accessibility: allows screen reader and keyboard users to jump straight to main content -->   
+    <a class="skip-link" href="#main">Skip to main content</a>
+
+<!-- Site header containing campaign title and tagline -->
+<header class="site-header" role="banner">
+<div class="container">
+    <h1 class="site-title">Ari Patrinos for City Controller</h1>
+    <p class="tagline">Experienced leader. Clean streets. Better schools.</p>
+</div>
+</header>
+
+<main id="main" class="grid-container" role="main">
+
+<section id="about" class="card" aria-labelledby="about-h">
+<h2 id="about-h">About</h2>
+    <figure>
+    <img src="images/Ari Patrinos.jpg" alt="Ari Patrinos smiling, head-and-shoulders portrait" class="candidate-photo">
+<figcaption aria-hidden="true">Ari Patrinos — Candidate for City Controller</figcaption>
+</figure>
+
+<div class="about-copy">
+    <p><strong>Name:</strong> Ari Patrinos</p>
+    <p><strong>Running for:</strong> City Controller</p>
+    <p><strong>Party:</strong> Republican</p>
+<p class="bio">Northwest Philadelphia native Ari Patrinos is a Harvard graduate with a masters 
+    in political science from the University of Chicago and experience as a Wall Street stockbroker. 
+    He is running to help the City provide basic services like clean streets and quality public schools, 
+    and to recruit highly qualified workers while addressing tax policy.</p>
+</div>
+</section>
+
+<!-- Donation button with ARIA label for accessibility -->
+<section id="donation" class="card" aria-labelledby="donation-h">
+<h2 id="donation-h">Donation</h2>
+    <p>If you support Ari's campaign and the values he stands for, 
+    please consider donating to the party to help get the message out.</p>
+<p class="donation-actions">
+    <a id="donate-btn" class="btn" href="#donate" role="button" aria-label="Donate to Ari Patrinos' campaign">
+    Donate to the Party</a>
+</p>
+</section>
+
+<section id="volunteer" class="card" aria-labelledby="volunteer-h">
+<h2 id="volunteer-h">Volunteer</h2>
+    p>Join the campaign! Fill out the form below to volunteer.</p>
+
+<form id="volunteer-form" action="#" method="post" novalidate aria-describedby="volunteer-instructions">
+    <p id="volunteer-instructions" class="sr-only">Please provide your name and email to sign up as a volunteer. 
+All fields are required.</p>
+
+<label for="firstName">First name</label>
+<input type="text" id="firstName" name="firstName" required aria-required="true">
+
+<label for="lastName">Last name</label>
+<input type="text" id="lastName" name="lastName" required aria-required="true">
+
+<label for="email">Email address</label>
+<input type="email" id="email" name="email" required aria-required="true">
+
+<button type="submit" class="btn">Sign Up to Volunteer</button>
+</form>
+</section>
+
+</main>
+
+<footer class="site-footer" role="contentinfo">
+    <div class="container footer-content">
+    <p>&copy; <span id="year"></span> Ari Patrinos Campaign</p>
+   <p>Find the project on GitHub: <a href="https://github.com/Tashaj594" target="_blank" rel="noopener">
+    GitHub
+  </a>
+    </p>
+</div>
+</footer>
+
+</body>
+</html>
